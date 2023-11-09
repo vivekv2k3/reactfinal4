@@ -1,0 +1,29 @@
+.usertable1 {
+  text-align: center;
+}
+.usertable1,
+.usertable2 {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.usertable2 {
+  padding: 20px;
+}
+.usertable {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .usertable1 {
+    text-align: center;
+
+    width: 25%;
+  }
+  .usertable2 {
+    padding: 0px;
+  }
+  .usertable {
+    margin-right: -700px;
+  }
+}
